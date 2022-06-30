@@ -1,0 +1,61 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:azure
+}
+
+/* cabeçalho */
+
+h1, p, h2{
+    text-align: center;
+}
+#titulo-principal{
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+/* cards */
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 300px;
+    margin: 25px;
+    border: 2px solid #ABDCFF;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #D3D3D3
+    
+}
+.card-imagem{
+    height: 300px;
+    background-size: cover;
+}
+.card-1 .card-imagem{    
+    background-image: url(/img/Golden.jfif);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.btn{
+    display: block;
+    background-color: #0396FF;
+    color: #FFF;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    padding: 10px;
+
+
+}
+.btn:hover{
+    background-color: #FFF;
+    color: #0396FF;
+    border-color: #0396FF;
+}
+.card-desgricao{
+    padding:20px 10px;
+}
